@@ -1,0 +1,14 @@
+debug/BfPlayer_res.o
+debug/main.o
+debug/MainWindow.o
+debug/ClipDialog.o
+debug/TimeEditWidget.o
+debug/ClipExtractor.o
+debug/VideoPlayerWidget.o
+debug/qrc_BfPlayer.o
+debug/moc_MainWindow.o
+debug/moc_ClipDialog.o
+debug/moc_TimeEditWidget.o
+debug/moc_ClipExtractor.o
+debug/moc_VideoPlayerWidget.o
+debug/moc_VideoPlayerThread.o

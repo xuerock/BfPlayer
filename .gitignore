@@ -1,69 +1,54 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Build output
+build/
+debug/
+release/
+Makefile*
+object_script.*
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
+moc_*.cpp
+qrc_*.cpp
+*.exp
+*.lib
+*.a
+*.dll
 *.so
 *.dylib
-*.dll
-*.so.*
 
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
+# IDE
+.idea/
+.vscode/
+*.user
+*.pro.user*
+.cbp
 *.swp
+*.swo
 
-# vcpkg
-vcpkg_installed/
+# Test files
+test_*.cpp
+test_*.exe
+test_*.o
+test_*.log
+*_test.cpp
+*_test.exe
 
-# debug information files
-*.dwo
+# Logs
+*.log
+mw.log
+play.log
+trace*.log
+*.dump
 
-# test output & cache
-Testing/
-.cache/
+# Resources that shouldn't be in version control
+resources/main.ico
+resources/main.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies / tools
+tools/

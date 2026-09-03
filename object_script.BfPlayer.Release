@@ -1,0 +1,14 @@
+release/BfPlayer_res.o
+release/main.o
+release/MainWindow.o
+release/ClipDialog.o
+release/TimeEditWidget.o
+release/ClipExtractor.o
+release/VideoPlayerWidget.o
+release/qrc_BfPlayer.o
+release/moc_MainWindow.o
+release/moc_ClipDialog.o
+release/moc_TimeEditWidget.o
+release/moc_ClipExtractor.o
+release/moc_VideoPlayerWidget.o
+release/moc_VideoPlayerThread.o
